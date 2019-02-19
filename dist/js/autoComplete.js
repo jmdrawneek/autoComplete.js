@@ -40,7 +40,6 @@
     if (renderResults.container) {
       select.resultsList = renderResults.container(resultsList) || select.resultsList;
     }
-    resultsList.setAttribute("id", select.resultsList);
     renderResults.destination.insertAdjacentElement(renderResults.position, resultsList);
     return resultsList;
   };
